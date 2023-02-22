@@ -1,6 +1,6 @@
 {
-  "name": "multi-cursor-case-preserve",
-  "displayName": "Multiple cursor case preserve",
+  "name": "multicursor-casepreserve",
+  "displayName": "MultiCursor: PascalCase camelCase UPPERCASE all-in-one!",
   "description": "Preserves case when editing with multiple cursors",
   "icon": "images/logo.png",
   "bugs": {
@@ -28,7 +28,7 @@
     "preserve case"
   ],
   "activationEvents": [
-    "*"
+    "onStartupFinished"
   ],
   "main": "./src/extension",
   "scripts": {
