@@ -1,5 +1,7 @@
 # Multiple cursor case preserve
 
+forked to removed constant errors being logged
+
 ## Features
 
 Have you ever tried to change a single word in all variable names, but had your camelCase broken? This extension preserves selection case in these situations. It recognises CAPS, Uppercase and lowercase. Works for typing or pasting.
@@ -8,8 +10,8 @@ Have you ever tried to change a single word in all variable names, but had your 
 
 ## Known Issues
 
-*   History for redo breaks when you undo a change made by the extension after pasting into multiple selections. [This issue](https://github.com/Microsoft/vscode/issues/38535) prevents me from solving undo/redo completely.
-*   Undo/redo works one change at a time, which for CAPS usually means a **ctrl+z** for every symbol.
+- History for redo breaks when you undo a change made by the extension after pasting into multiple selections. [This issue](https://github.com/Microsoft/vscode/issues/38535) prevents me from solving undo/redo completely.
+- Undo/redo works one change at a time, which for CAPS usually means a **ctrl+z** for every symbol.
 
 ## Release Notes
 
